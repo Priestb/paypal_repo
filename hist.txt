@@ -1,0 +1,501 @@
+    1  whoami
+    2  ls
+    3  ls -l
+    4  sudo yum install vim
+    5  clear
+    6  sudo yum install vim -y
+    7  clear
+    8  nano new
+    9  sudo yum install nano
+   10  clear
+   11  nano new
+   12  history
+   13  clear
+   14  ls
+   15  pwd
+   16  cd dev
+   17  pwd
+   18  cd .
+   19  pwd
+   20  history
+   21  ls -l
+   22  sudo useradd milky
+   23  sudo cat /etc/shadow
+   24  clear
+   25  pwd
+   26  ls
+   27  cat new
+   28  echo 'landmark is promising' >> new
+   29  cat new
+   30  echo 'i will make it' > new
+   31  cat new
+   32  echo 'landmark is promising' >> new
+   33  cat new
+   34  vi new
+   35  cat new
+   36  sudo install vim
+   37  ls
+   38  vi new
+   39  exit
+   40  ls
+   41  rm new save
+   42  rm new.save
+   43  cat new.save
+   44  ls
+   45  cat new.save.1
+   46  nano new.save.1
+   47  cat /etc/opt
+   48  vi /etc/opt
+   49  ls
+   50  cat -n new.save.1
+   51  clear
+   52  ls
+   53  mv new.save.1 list.txt
+   54  tree
+   55  ls
+   56  cp new.save.1
+   57  cp new.save.1 tesla
+   58  cd tesla
+   59  ls
+   60  cat new.save.1
+   61  cd /
+   62  pwd
+   63  ls
+   64  cd tesla
+   65  cd .
+   66  pwd
+   67  cd /home/ec2-user
+   68  ls
+   69  mkdir .config
+   70  touch .test
+   71  ls
+   72  ls -a
+   73  ls -l
+   74  ll -a
+   75  clear
+   76  history
+   77  clear
+   78  more 
+   79  ls
+   80  more list.txt
+   81  head 5 list.txt
+   82  head 2 list.txt
+   83  tail list.txt -5
+   84  less 2 list.txt
+   85  clear
+   86  ll ltr
+   87  ls -ltr
+   88  ll -ltr
+   89  ll -lt
+   90  sudo su -i
+   91  sudo su 
+   92  whoami
+   93  sudo -i
+   94  ll
+   95  sudo chown milky rich.me
+   96  ll rich.me
+   97  history
+   98  clear
+   99  vi history.sh
+  100  cat history.sh 
+  101  clear
+  102  logout
+  103  umask
+  104  umask 0666
+  105  umask
+  106  touch new.umask
+  107  ll
+  108  mkdir testing
+  109  ll
+  110  ll testing
+  111  umask
+  112  ls
+  113  ll
+  114  rm new.umask
+  115  clear
+  116  ll
+  117  sudo rm new.umask
+  118  ll
+  119  sudo rm umask.check
+  120  sudo rm new.save.1.save.1
+  121  ll
+  122  clear
+  123  ll
+  124  chmod 600 rich.me
+  125  ll
+  126  ls rich.me
+  127  ll rich.me
+  128  chmod 777 priestb
+  129  ll
+  130  clear
+  131  ls /home
+  132  sudo su milky
+  133  whoami
+  134  clear
+  135  ll
+  136  chown rich.me milky
+  137  chown milky rich.me
+  138  umask
+  139  umask 0000
+  140  ls
+  141  ll -l
+  142  umask
+  143  umask
+  144  umask 0000
+  145  umask
+  146  touch rich.me
+  147  ls
+  148  ll -l
+  149  clear
+  150  umask
+  151  umask 0600
+  152  touch umask.check
+  153  ll
+  154  umask
+  155  whoami
+  156  tree
+  157  ll testing
+  158  sudo ll testing
+  159  clear
+  160  ls
+  161  find .list.txt
+  162  ll -l
+  163  cd dev
+  164  pwd
+  165  ls
+  166  touch sweetdreams.txt
+  167  devops is my way >> sweetdreams.txt 
+  168  devops is my way > sweetdreams.txt 
+  169  sudo devops is my way > sweetdreams.txt 
+  170  sudo devops is my way > new.file 
+  171  echo devops is my way >> sweetdreams.txt 
+  172  cat sweetdreams.txt 
+  173  echo im going to be rich >> sweetdreams.txt 
+  174  cat sweetdreams.txt 
+  175  clear
+  176  pwd
+  177  cd .
+  178  pwd
+  179  cd ../
+  180  pwd
+  181  cd ../../
+  182  pwd
+  183  cd ..
+  184  pwd
+  185  whoami
+  186  clear
+  187  pwd
+  188  cd dev
+  189  find . -list
+  190  ls
+  191  cd .
+  192  pwd
+  193  cd ../
+  194  pwd
+  195  ls
+  196  cd home/ec2-user/
+  197  pwd
+  198  ls
+  199  cp list.txt tesla
+  200  cd tesla
+  201  ls
+  202  cd ..
+  203  pwd
+  204  sudo su -i
+  205  sudo su root
+  206  history
+  207  clear
+  208  sudo hostname priestb
+  209  sudo su ec2-user
+  210  whoami
+  211  ls
+  212  logout
+  213  history
+  214  clear
+  215  sudo adduser damilky
+  216  ls home
+  217  ls home/
+  218  pwd
+  219  ls .
+  220  ls /home/ec2-user
+  221  cat new.save.1.save 
+  222  ll -l new.save.1.save 
+  223  ll -a
+  224  clear
+  225  ls /home
+  226  passwd damilky
+  227  sudo passwd damilky
+  228  clear
+  229  sudo su damilky
+  230  whoami
+  231  userdel damilky
+  232  sudo userdel damilky
+  233  ls /home
+  234  sudo userdel damilky
+  235  ls /home
+  236  clear
+  237  restart
+  238  clear
+  239  ls /home
+  240  logout
+  241  clear
+  242  whoami
+  243  clear
+  244  date
+  245  timedatectl list-timezones
+  246  sudo timedatectl set-timezones "America/New_York"
+  247  clear
+  248  sudo timedatectl set-timezone "America/New_York"
+  249  sudo timedatectl set-timezone "America/New_York"
+  250  clear
+  251  sudo su root
+  252  exit
+  253  whoami
+  254  hostname
+  255  sudo hostname priestb
+  256  su ec2-user
+  257  sudo passwd milky
+  258  sudo cat /etc/shadow
+  259  grep milky
+  260  clear
+  261  pwd
+  262  pwd
+  263  ls
+  264  cd dev/
+  265  ls
+  266  find . -name new.file
+  267  cd
+  268  pwd
+  269  whereis bin
+  270  cat bin
+  271  pwd
+  272  sudo hostname priestb
+  273  sudo ec2-user
+  274  sudo su ec2-user
+  275  exit
+  276  whoami
+  277  hostname priestb
+  278  sudo hostname priestb
+  279  sudo su ec2-user
+  280  pwd
+  281  whoami
+  282  ls
+  283  cat history.sh |sort | grep whoami
+  284  ls -l
+  285  cat list.txt
+  286  ls /home
+  287  ls /home/ec2-user
+  288  clear
+  289  find list
+  290  whereis list
+  291  cat list
+  292  pwd
+  293  ls
+  294  find list.txt
+  295  cat list.txt
+  296  clear
+  297  ls
+  298  find /home/ec2-user -name list.txt
+  299  sudo find /home/ec2-user -name list.txt
+  300  find ~ -name list.txt
+  301  sudo find ~ -name list.txt
+  302  cat /etc/sodoers
+  303  cat /etc/sudoers
+  304  sudo cat /etc/sudoers
+  305  sudo vi /etc/sudoers
+  306  sudo cat /etc/sudoers
+  307  clear
+  308  sudo hostname priestb
+  309  clear
+  310  sudo hostname priestb
+  311  clear 
+  312  sudo su milky
+  313  clear
+  314  pwd
+  315  history
+  316  clear
+  317  sudo groupadd manager directors developers
+  318  sudo usermod -aG manager milky
+  319  sudo groupadd manager
+  320  sudo usermod -aG manager milky
+  321  clear
+  322  sudo grep milky /etc/password
+  323  sudo grep milky etc/password/
+  324  id milky
+  325  sudo grep milky etc/passwd/
+  326  sudo grep milky /etc/passwd/
+  327  clear
+  328  grep milky /etc/passwd/
+  329  grep milky /etc/passwd
+  330  cat /etc/passwd
+  331  clear
+  332  sudo tail -5 /etc/shadow
+  333  sudo tail -5 /etc/passwd
+  334  ls /home
+  335  sudo userdel -r damilky
+  336  ls /home
+  337  sudo useradd damilky
+  338  sudo useradd bakon
+  339  ls /home
+  340  id bakon
+  341  sudo usermod -aG manager bakon
+  342  clear
+  343  tail /etc/group
+  344  tail -5 /etc/group
+  345  sudo groupadd testers
+  346  tail /etc/group
+  347  logout
+  348  clear
+  349  ls
+  350  tree
+  351  ll -l
+  352  cat list.txt |grep -i l |sort
+  353  ls
+  354  clear
+  355  find -i list.txt
+  356  find list.txt
+  357  find . -name list.txt
+  358  sudo find . -name list.txt
+  359  clear
+  360  sudo find/ -name list.txt
+  361  sudo find / -name list.txt
+  362   find / -name list.txt
+  363  clear
+  364  ls -a
+  365  ll -a
+  366  date
+  367  history
+  368  cat history
+  369  whereis history.sh 
+  370  find / -name history.sh 
+  371  sudo find / -name history.sh 
+  372  clear
+  373  ls /home
+  374  sudo userdel -r damilky
+  375  ls /home
+  376  su bakon
+  377  sudo su bakon
+  378  whoami
+  379  sudo useradd demo
+  380  ls /home
+  381  id demo
+  382  tail -2 /etc/password
+  383  tail -2 /etc/passwd
+  384  clear
+  385  sudo passwd demo
+  386  clear
+  387  sudo visudo
+  388  sudo vi /etc/sudoers
+  389  clear
+  390  ls /home
+  391  sudo su - demo
+  392  sudo chage demo
+  393  clear
+  394  sudo vi /etc/ssh/sshd_config
+  395  sudo systemctl restart sshd
+  396  whoami
+  397  ls /home
+  398  sudo passwd -l milky
+  399  sudo passwd -u milky
+  400  clear
+  401  sudo groupadd new.hire
+  402  sudo usermod -aG new.hire milky
+  403  id milky
+  404  clear
+  405  wc
+  406  whoami
+  407  ls
+  408  ll
+  409  chmod 644 rich.me 
+  410  sudo chmod 644 rich.me 
+  411  ll rich.me
+  412  ls /home
+  413  sudo chown rich.me bakon
+  414  ll rich.me 
+  415  sudo chown bakon rich.me 
+  416  ll rich.me 
+  417  git --version
+  418  sudo yum install git
+  419  clear
+  420  ll
+  421  cd opt/
+  422  cd opt
+  423  whereis opt
+  424  cd /etc/opt
+  425  pwd
+  426  ll
+  427  ll -a
+  428  exit
+  429  hostname
+  430  whoami
+  431  pwd
+  432  ll
+  433  cd paypal
+  434  git init
+  435  # git config --global init.defaultBranch <name>
+  436  git status
+  437  # git branch -m <name>
+  438  clear
+  439  ls
+  440  touch list.txt
+  441  ls
+  442  echo damilky >> list.txt 
+  443  ls
+  444  cat list.txt 
+  445  echo john >> list.txt 
+  446  echo paul mary fri ricky million >> list.txt 
+  447  cat list.txt 
+  448  vi list.txt 
+  449  cat list.txt 
+  450  vi list.txt 
+  451  clear
+  452  vi list.txt 
+  453  cat list.txt 
+  454  vi list.txt 
+  455  cat list.txt 
+  456  clear
+  457  git status
+  458  ls
+  459  ls -a
+  460  rm -f .list.txt.sw
+  461  rm -f .list.txt.swp
+  462  ls -a
+  463  rm -f .list.txt.swo 
+  464  ls -l
+  465  git status
+  466  clear
+  467  git add .
+  468  git status
+  469  #git rm --cached
+  470  git rm --cached list.txt 
+  471  ls
+  472  git status
+  473  git add list.txt 
+  474  git status
+  475  clear
+  476  git commit -m "first commit"
+  477  #git config --global --edit
+  478  # git commit --amend --reset-author
+  479  git config --global --edit
+  480  git status
+  481  ls
+  482  cat list.txt 
+  483  echo love >> list.txt 
+  484  cat list.txt 
+  485  vim list.txt 
+  486  cat list.txt 
+  487  git status
+  488  git init
+  489  git add
+  490  clear
+  491  git add .
+  492  git status
+  493  git commit -m "second commit"
+  494   git config --global user.name "bakon"
+  495  git config --global user.email bakon0590@gmail.com
+  496  git status
+  497  git log
+  498  git show 699f4270
+  499  clear
+  500  history
+  501  history >> hist.txt
