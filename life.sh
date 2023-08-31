@@ -1,0 +1,6 @@
+surprises
+temptations
+desperation
+challenges
+manipulations
+
