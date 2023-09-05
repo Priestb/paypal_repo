@@ -5,4 +5,7 @@ gilbert
 hustle
 riches
 longlive
+devops
+linux
+maven
 
